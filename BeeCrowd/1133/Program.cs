@@ -1,5 +1,5 @@
-﻿int num1 = int.Parse(Console.ReadLine());
-int num2  = int.Parse(Console.ReadLine());
+﻿int num1 = Convert.ToInt32(Console.ReadLine());
+int num2  = Convert.ToInt32(Console.ReadLine());
 
 int maior = Math.Max(num1, num2);
 int menor = Math.Min(num1, num2);
